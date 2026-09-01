@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramya A - Resume</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .resume {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 45px 55px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #222;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: #222;
+            margin-bottom: 8px;
+        }
+
+        .contact {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .contact a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        section {
+            margin-bottom: 28px;
+        }
+
+        section h2 {
+            font-size: 20px;
+            color: #222;
+            text-transform: uppercase;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 6px;
+            margin-bottom: 12px;
+        }
+
+        section p {
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        .skills p {
+            margin-bottom: 8px;
+        }
+
+        .skills strong {
+            color: #222;
+        }
+
+        .project {
+            margin-bottom: 18px;
+        }
+
+        .project h3 {
+            font-size: 17px;
+            color: #222;
+            margin-bottom: 5px;
+        }
+
+        .project ul {
+            padding-left: 20px;
+        }
+
+        .project li {
+            font-size: 15px;
+            margin-bottom: 4px;
+        }
+
+        .education h3 {
+            font-size: 17px;
+            color: #222;
+            margin-bottom: 4px;
+        }
+
+        .education p {
+            text-align: left;
+        }
+
+        @media (max-width: 600px) {
+            .resume {
+                margin: 0;
+                padding: 30px 22px;
+                box-shadow: none;
+            }
+
+            header h1 {
+                font-size: 30px;
+            }
+
+            .contact {
+                line-height: 1.8;
+            }
+
+            section h2 {
+                font-size: 18px;
+            }
+
+            section p,
+            .project li {
+                font-size: 14px;
+            }
+        }
+
+        @media print {
+            body {
+                background: #ffffff;
+            }
+
+            .resume {
+                margin: 0;
+                box-shadow: none;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="resume">
+
+        <header>
+            <h1>Ramya A</h1>
+
+            <div class="contact">
+                Bangalore, Karnataka |
+                <a href="#">[Email Address]</a> |
+                <a href="#">[LinkedIn Profile]</a> |
+                <a href="#">[GitHub/Portfolio Link]</a>
+            </div>
+        </header>
+
+        <section class="summary">
+            <h2>Professional Summary</h2>
+
+            <p>
+                Motivated Computer Science Engineering student specializing in AI &amp;
+                Machine Learning at REVA University. Hands-on experience in software
+                development, data science, and web applications using Python, C, and
+                frontend technologies. Proven ability to build full-stack web projects
+                and data manipulation pipelines, seeking an entry-level software
+                engineering or data analyst role to contribute to technical projects
+                and scale industry solutions.
+            </p>
+        </section>
+
+        <section class="skills">
+            <h2>Technical Skills</h2>
+
+            <p>
+                <strong>Programming Languages:</strong>
+                Python, C, HTML5, CSS3
+            </p>
+
+            <p>
+                <strong>Data Science &amp; Analytics:</strong>
+                DataFrames (Pandas), Data Analysis, Data Visualization
+            </p>
+
+            <p>
+                <strong>Web &amp; Graphics Development:</strong>
+                HTML, CSS, 2D Graphics Editing
+            </p>
+
+            <p>
+                <strong>Tools &amp; Platforms:</strong>
+                VS Code, Git/GitHub, Vercel
+            </p>
+        </section>
+
+        <section class="projects">
+            <h2>Key Projects</h2>
+
+            <article class="project">
+                <h3>Viswanathan &amp; Sons Movie Project</h3>
+
+                <ul>
+                    <li>
+                        Developed a web application dedicated to media and entertainment
+                        content using HTML and CSS.
+                    </li>
+                    <li>
+                        Designed responsive UI elements and structured media layouts to
+                        enhance user navigation and engagement.
+                    </li>
+                </ul>
+            </article>
+
+            <article class="project">
+                <h3>Personal E-Portfolio Website</h3>
+
+                <ul>
+                    <li>
+                        Built and deployed a personal portfolio site showcasing software
+                        engineering skills, projects, and academic coursework.
+                    </li>
+                    <li>
+                        Integrated modern web styling and interactive elements; hosted
+                        live via Vercel.
+                    </li>
+                </ul>
+            </article>
+
+            <article class="project">
+                <h3>2D Graphics Editor Application</h3>
+
+                <ul>
+                    <li>
+                        Programmed a custom 2D graphics editing application to handle
+                        shape rendering and digital visual adjustments.
+                    </li>
+                    <li>
+                        Implemented core algorithms for graphics processing and visual
+                        layout management.
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+
+            <h3>
+                Bachelor of Technology (B.Tech) in Computer Science Engineering (AI &amp; ML)
+            </h3>
+
+            <p>
+                REVA University, Bengaluru | Expected Graduation: 2026/2027
+            </p>
+        </section>
+
+        <section class="career">
+            <h2>Career Objective</h2>
+
+            <p>
+                To secure a position as a Software Development Engineer or Data Analyst
+                where I can leverage my programming foundation in Python and Data Analytics
+                to solve complex technical challenges and launch a successful career in
+                the tech industry.
+            </p>
+        </section>
+
+    </main>
+
+</body>
+</html>
